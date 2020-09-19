@@ -16,6 +16,9 @@ import { FeedComponent } from './components/feed/feed.component';
 import { InserirComponent } from './components/inserir/inserir.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatCardModule} from '@angular/material/card';
+import { TelaPoliticoComponent } from './components/tela-politico/tela-politico.component';
+
+
 
 
 @NgModule({
@@ -24,7 +27,8 @@ import {MatCardModule} from '@angular/material/card';
     MenuPageLayoutComponent,
     HomeComponent,
     FeedComponent,
-    InserirComponent
+    InserirComponent,
+    TelaPoliticoComponent
   ],
   imports: [
     BrowserModule,

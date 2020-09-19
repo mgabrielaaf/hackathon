@@ -1,0 +1,26 @@
+mat-card {
+  margin: 15px;
+  background-color: lightblue;
+
+
+}
+
+#estilo {
+  display: flex;
+  font-size: 30px;
+}
+
+img {
+
+
+
+}
+
+#estilogeral {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+
+}
