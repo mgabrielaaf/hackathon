@@ -16,6 +16,8 @@ import { FeedComponent } from './components/feed/feed.component';
 import { InserirComponent } from './components/inserir/inserir.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatCardModule} from '@angular/material/card';
+import { TelaPoliticoComponent } from './components/tela-politico/tela-politico.component';
+
 import {MatInputModule} from '@angular/material/input';
 import { PostComponent } from './components/post/post.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -31,6 +33,7 @@ import { CommonModule } from '@angular/common';
     FeedComponent,
     InserirComponent,
     PostComponent
+
   ],
   imports: [
     BrowserModule,

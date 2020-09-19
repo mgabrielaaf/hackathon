@@ -4,6 +4,7 @@ import { FeedComponent } from './components/feed/feed.component';
 import { HomeComponent } from './components/home/home.component';
 import { InserirComponent } from './components/inserir/inserir.component';
 import { MenuPageLayoutComponent } from './components/menu-page-layout/menu-page-layout.component';
+import { TelaPoliticoComponent } from './components/tela-politico/tela-politico.component';
 
 const routes: Routes = [
 
