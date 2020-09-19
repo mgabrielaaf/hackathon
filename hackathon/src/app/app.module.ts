@@ -19,6 +19,9 @@ import {MatCardModule} from '@angular/material/card';
 import { TelaPoliticoComponent } from './components/tela-politico/tela-politico.component';
 
 import {MatInputModule} from '@angular/material/input';
+import { PostComponent } from './components/post/post.component';
+import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 
 
 @NgModule({
@@ -28,7 +31,8 @@ import {MatInputModule} from '@angular/material/input';
     HomeComponent,
     FeedComponent,
     InserirComponent,
-    TelaPoliticoComponent
+    PostComponent
+
   ],
   imports: [
     BrowserModule,
@@ -42,7 +46,13 @@ import {MatInputModule} from '@angular/material/input';
     MatListModule,
     MatFormFieldModule,
     MatCardModule,
+<<<<<<< HEAD
     MatInputModule
+=======
+    MatInputModule,
+    HttpClientModule,
+    CommonModule,
+>>>>>>> c438dc9ca1517d9a5d4239841d3e1da8ba65a705
   ],
   providers: [],
   bootstrap: [AppComponent]
