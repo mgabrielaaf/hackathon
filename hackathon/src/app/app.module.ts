@@ -15,6 +15,7 @@ import { HomeComponent } from './components/home/home.component';
 import { FeedComponent } from './components/feed/feed.component';
 import { InserirComponent } from './components/inserir/inserir.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
