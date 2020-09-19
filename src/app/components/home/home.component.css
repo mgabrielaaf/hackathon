@@ -15,11 +15,12 @@
 h1 {
   margin-left: 5vw;
   margin-top: 5vw;
+  color: #000;
 }
 
 p {
   margin-left: 5vw;
-  margin-right: 5vw;
+  color: #BCB3B3;
 }
 
 .login {
