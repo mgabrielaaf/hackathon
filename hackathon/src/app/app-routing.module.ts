@@ -17,8 +17,8 @@ const routes: Routes = [
     component: FeedComponent},
     {path:'inserir',
     component: InserirComponent},
-    {path:'tela-politico',
-      component: TelaPoliticoComponent}
+    {path:'representantes',
+    component: TelaPoliticoComponent}
   ]},
 ];
 

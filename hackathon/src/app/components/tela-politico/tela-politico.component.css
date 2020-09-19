@@ -1,6 +1,7 @@
 mat-card {
   margin: 15px;
   background-color: lightblue;
+  width: 80%;
 
 }
 
@@ -10,6 +11,10 @@ mat-card {
 }
 
 img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
 
 
