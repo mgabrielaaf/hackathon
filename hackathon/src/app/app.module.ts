@@ -17,6 +17,9 @@ import { InserirComponent } from './components/inserir/inserir.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
+import { PostComponent } from './components/post/post.component';
+import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 
 
 
@@ -26,7 +29,8 @@ import {MatInputModule} from '@angular/material/input';
     MenuPageLayoutComponent,
     HomeComponent,
     FeedComponent,
-    InserirComponent
+    InserirComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
@@ -41,6 +45,8 @@ import {MatInputModule} from '@angular/material/input';
     MatFormFieldModule,
     MatCardModule,
     MatInputModule,
+    HttpClientModule,
+    CommonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
