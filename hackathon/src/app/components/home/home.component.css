@@ -1,0 +1,39 @@
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content:start;
+  align-items: flex-start;
+}
+
+.log{
+  width: 50vw;
+  margin-left:2vw;
+  height: 3vh;
+  border-color:black;
+  border-style: solid;
+  border-width: 0.1px;
+}
+
+button{
+  width: 50vw;
+  height: 2.5vh;
+  margin-left:2vw;
+}
+
+.cabeca{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h1{
+  margin-left: 5vw;
+  margin-top: 5vw;
+}
+
+p{
+  margin-left:5vw;
+  margin-right:5vw;
+}
+
+
