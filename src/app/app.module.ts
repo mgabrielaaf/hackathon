@@ -15,11 +15,6 @@ import { HomeComponent } from './components/home/home.component';
 import { FeedComponent } from './components/feed/feed.component';
 import { InserirComponent } from './components/inserir/inserir.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatCardModule} from '@angular/material/card';
-import { TelaPoliticoComponent } from './components/tela-politico/tela-politico.component';
-
-import {MatInputModule} from '@angular/material/input';
-
 
 
 @NgModule({
@@ -28,8 +23,7 @@ import {MatInputModule} from '@angular/material/input';
     MenuPageLayoutComponent,
     HomeComponent,
     FeedComponent,
-    InserirComponent,
-    TelaPoliticoComponent
+    InserirComponent
   ],
   imports: [
     BrowserModule,
@@ -41,9 +35,7 @@ import {MatInputModule} from '@angular/material/input';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatFormFieldModule,
-    MatCardModule,
-    MatInputModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]

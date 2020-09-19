@@ -7,31 +7,17 @@ import { MenuPageLayoutComponent } from './components/menu-page-layout/menu-page
 import { TelaPoliticoComponent } from './components/tela-politico/tela-politico.component';
 
 const routes: Routes = [
+
   {path:'',
   component: MenuPageLayoutComponent,
-  children:[{
-    path:'home',
-    component: HomeComponent,
-  },
-
-  {
-    path:'feed',
-    component: FeedComponent,
-  },
-
-  {
-    path:'inserir',
-    component: InserirComponent,
-  },
-
-  {
-    path:'representantes',
-    component: TelaPoliticoComponent,
-  }
-
-
-  ]
-  },
+  children:[
+    {path:'',
+    component:HomeComponent},
+    {path:'feed',
+    component: FeedComponent},
+    {path:'inserir',
+    component: InserirComponent}
+  ]},
 ];
 
 @NgModule({
