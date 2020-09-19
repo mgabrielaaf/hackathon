@@ -6,24 +6,17 @@ import { InserirComponent } from './components/inserir/inserir.component';
 import { MenuPageLayoutComponent } from './components/menu-page-layout/menu-page-layout.component';
 
 const routes: Routes = [
+
   {path:'',
   component: MenuPageLayoutComponent,
-  children:[{
-    path:'home',
-    component: HomeComponent,
-  },
-
-  {
-    path:'feed',
-    component: FeedComponent,
-  },
-
-  {
-    path:'inserir',
-    component: InserirComponent,
-  }
-  ]
-  },
+  children:[
+    {path:'',
+    component:HomeComponent},
+    {path:'feed',
+    component: FeedComponent},
+    {path:'inserir',
+    component: InserirComponent}
+  ]},
 ];
 
 @NgModule({

@@ -16,6 +16,8 @@ import { FeedComponent } from './components/feed/feed.component';
 import { InserirComponent } from './components/inserir/inserir.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatCardModule} from '@angular/material/card';
+import {MatInputModule} from '@angular/material/input';
+
 
 
 @NgModule({
@@ -38,6 +40,7 @@ import {MatCardModule} from '@angular/material/card';
     MatListModule,
     MatFormFieldModule,
     MatCardModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
